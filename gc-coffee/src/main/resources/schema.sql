@@ -8,3 +8,4 @@ CREATE TABLE products
     created_at DATETIME(6) NOT NULL,
     updated_at DATETIME(6) DEFAULT NULL
 );
+
