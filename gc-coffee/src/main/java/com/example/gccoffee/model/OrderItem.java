@@ -1,5 +1,12 @@
 package com.example.gccoffee.model;
 
-public class OrderItem {
+import java.util.UUID;
+import lombok.Getter;
 
+@Getter
+public class OrderItem {
+    UUID productId;
+    Category category;
+    long price;
+    int quantity;
 }
